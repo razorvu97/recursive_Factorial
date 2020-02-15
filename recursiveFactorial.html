@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Рекурсивная функция</title>
+</head>
+<body>
+<script type="text/javascript">
+	function recursiveFactorial(n) {
+		if (n == 0) {
+			return 1;
+		} else {
+			return recursiveFactorial(n-1)*n;
+		}
+	}
+
+var factorial = recursiveFactorial(5);
+alert(factorial);
+	
+</script>
+</body>
+</html>
